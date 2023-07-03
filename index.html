@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Water Container</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      canvas {
+        background-color: #eee;
+      }
+      input{
+        width: 400px;
+        height: 30px;
+        margin-bottom: 30px;
+        margin-top: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <input
+        type="text"
+        id="input"
+        placeholder="Enter numbers separated by commas"
+      />
+    </div>
+
+    <canvas id="container"></canvas>
+    <h1 id="max-capacity">Maximum water capacity: 0</h1>
+    <script src="script.js"></script>
+  </body>
+</html>
